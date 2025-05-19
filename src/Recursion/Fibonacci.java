@@ -2,11 +2,11 @@ package Recursion;
 
 public class Fibonacci {
     public static void main(String[] args) {
-        System.out.print(Fib(6));
+        System.out.print(fib(6));
     }
 
-    public static int Fib(int n) {
+    public static int fib(int n) {
         if (n <= 1) return n;
-        return Fib(n-1) + Fib(n - 2);
+        return fib(n-1) + fib(n - 2);
     }
 }

@@ -2,8 +2,7 @@ package Recursion;
 
 public class Factorial {
     public static void main(String[] args) {
-        int n = 5;
-        System.out.print(fact(n));
+        System.out.print(fact(5));
     }
 
     public static int fact(int n) {

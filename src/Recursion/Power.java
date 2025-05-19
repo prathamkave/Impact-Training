@@ -2,8 +2,7 @@ package Recursion;
 
 public class Power {
     public static void main(String[] args) {
-        int a = 3, b = 5;
-        System.out.print(Power(a,b));
+        System.out.print(Power(3,5));
     }
 
     public static int Power(int a,int b) {

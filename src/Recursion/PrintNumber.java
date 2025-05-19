@@ -4,13 +4,14 @@ public class PrintNumber {
     public static void main(String[] args) {
         int n = 10;
         Decreasing(n);
+        System.out.println("------------");
         n = 1;
         Increasing(n);
 
     }
 
     public static void Decreasing(int n) {
-        if (n == 1) {
+        if (n == 0) {
             return;
         }
         System.out.println(n);
@@ -22,7 +23,7 @@ public class PrintNumber {
             return;
         }
         System.out.println(n);
-        Decreasing(n+1);
+        Increasing(n+1);
     }
 
 
