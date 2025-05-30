@@ -10,7 +10,7 @@ public class ReverseList {
         Collections.reverse(list);
         System.out.println(list);
     }
-
+}
 //    public void reverseList() {
 //        if(head == null || head.next == null) {
 //            return;
@@ -36,4 +36,3 @@ public class ReverseList {
 //        head.next = null;
 //        return newHead;
 //    }
-}
