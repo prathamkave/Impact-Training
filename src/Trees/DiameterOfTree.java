@@ -1,16 +1,16 @@
 package Trees;
 
-class TreeInfo {
-    int height;
-    int diam;
-
-    TreeInfo(int height, int diam) {
-        this.height = height;
-        this.diam = diam;
-    }
-}
-
 public class DiameterOfTree {
+
+    static class TreeInfo {
+        int height;
+        int diam;
+
+        TreeInfo(int height, int diam) {
+            this.height = height;
+            this.diam = diam;
+        }
+    }
 
     // Approach 1
     public static int diameter(Node root) {

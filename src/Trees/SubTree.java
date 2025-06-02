@@ -1,16 +1,16 @@
 package Trees;
 
-class TreeNode {
-    int data;
-    TreeNode left, right;
-
-    TreeNode(int data) {
-        this.data = data;
-        left = right = null;
-    }
-}
-
 public class SubTree {
+
+    static class TreeNode {
+        int data;
+        TreeNode left, right;
+
+        TreeNode(int data) {
+            this.data = data;
+            left = right = null;
+        }
+    }
 
     public boolean isIdentical(TreeNode root, TreeNode subRoot) {
         if (root == null && subRoot == null) return true;
